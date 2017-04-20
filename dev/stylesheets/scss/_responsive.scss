@@ -1,0 +1,99 @@
+@media (max-width: 1024px) {
+  .flex-section{
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+  }
+  .flex-section-text{
+    display: block;
+    margin: 0 auto;
+    padding: 0 10px 0 10px;
+    order: 1;
+  }
+  .flex-section-image{
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+    order: 2;
+    padding-top: 20px;
+  }
+  .flex-section-title, .title{
+    font-size: 2em;
+    line-height: 1.2;
+  }
+  .title-left, .title-right, .title:after, .flex-section-subtitle{
+    margin: 0;
+    border: 0;
+    text-align: center;
+  }
+  .flex-section-text > p > span{
+    font-size: 1.2em;
+  }
+  .cd-date{
+    font-weight: bold;
+    font-size: 1.5em !important;
+  }
+  .flex-section-row{
+    flex-wrap: wrap;
+  }
+  .flex-section-item{
+    box-sizing: border-box;
+    width: -webkit-calc(100% - 52% - 10px);
+    margin: 10px 10px 10px 10px;
+  }
+}
+@media (max-width: 800px){
+  nav > ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    transition: all .2s;
+    background-color: #333;
+  }
+  nav > ul > li{
+    padding: 20px;
+  }
+  nav > ul > li > a:hover{
+    border: 0;
+  }
+  .nav-toggle{
+    display: block;
+  }
+  header{
+    background-size: cover;
+    height: 100vh;
+  }
+  header > .logo{
+    width: 350px;
+    height: 150px;
+  }
+  .flex-section-row{
+    flex-direction: column;
+  }
+  .flex-section-item, .flex-section-item-half{
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+  .img-block{
+    width: 80%;
+  }
+  #iptu{
+    background-color: $primary-blue;
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+  }
+  footer p{
+    padding: 10px 40px 10px 40px;
+    color: white;
+    text-align: center;
+  }
+}
+@media (max-width: 500px){
+  #iptu{
+    background-size: 100%;
+    min-height: 200px;
+  }
+}
