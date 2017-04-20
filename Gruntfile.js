@@ -45,7 +45,7 @@ module.exports = (grunt) => {
             authKey: 'key1'
           },
           src: 'public',
-          dest: '/public_html/100dias/'
+          dest: 'dest'
         }
       },
       cssmin: {
