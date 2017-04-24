@@ -1,9 +1,11 @@
 @import "_reset";
+@import "_variables";
 @import "_header";
 @import "_content";
+@import "_contador";
+@import "_images";
 @import "_timeline";
 @import "_footer";
 @import "_responsive";
-.is-active{
-  display: block !important;
-}
+@import "_helpers";
+@import "_styles";

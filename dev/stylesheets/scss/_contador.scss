@@ -1,0 +1,25 @@
+.parallax-window {
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.odometer-digit{
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+}
+.odometer-inside{
+  margin: 0 auto;
+}
+.odometer-description{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+.odometer-description-simbol{
+@extend .odometer-description;
+font-weight: bold;
+font-size: 2em;
+color: $secondary-blue;
+}
